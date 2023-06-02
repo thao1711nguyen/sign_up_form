@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="title">
+                <img class="logo" src="logo.jpg" alt="cherry blossom"> 
+                <div class="title-name">CHERRY</div>
+            </div>
+            <footer>
+                <p>Photo by <a href="https://unsplash.com/photos/44f81niLM0A">Annie Spratt</a> on <a href="https://unsplash.com/">unplash.com</a></p>
+                <p>Logo by <a href="https://unsplash.com/photos/jnrxBoiLSYA">Library of Congress</a> on <a href="https://unsplash.com/">unplash.com</a></p>
+            </footer>
+        </div>
+        <div class="right">
+            <div>
+                <p>This is not a real online service! You know you need 
+                    something like this in your life to help you 
+                    realize your deepest dreams.<br>Sign up <i>now</i> to get started.
+                </p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+            <form action="">
+                <p>Let's do this!</p>
+                <div class="user-info">
+                    <div>
+                        <div>
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="first-name" placeholder="Thor" required>
+                            <span></span>
+                        </div>
+                        <div>
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="last-name" placeholder="Odinson" required>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="user-email" required>
+                            <span></span>
+                        </div>
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone-number">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="pw" >PASSWORD</label>
+                            <input type="text" id="pw" name="password" required>
+                            <span></span>
+                        </div>
+                        <div>
+                            <label for="confirm-pw">CONFIRM PASSWORD</label>
+                            <input type="text" id="confirm-pw" name="confirm-password" required>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">Create Account</button>
+                    <div>
+                        <p>Already have an account?</p>
+                        <button type="button">Log in</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
